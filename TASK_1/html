@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Electric Cars</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the world of Electric Cars</h1>
+    </header>
+    <div class="navigation-bar">
+        <ul class="nav-links">
+            <li><a href="#news">Upcoming Cars</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="videos">Videos</a></li>
+        </ul>
+        <div class="search-box">
+            <input type="text" placeholder="Search...">
+            <button>Search</button>
+        </div>
+    </div>
+    <main>
+        <section class="car-list">
+            <div class="car-row">
+                <div class="car">
+                    <img src="MG COMET.png" alt="Car 1" width="300" height="200">
+                    <h2>MG COMET</h2>
+                    <p>Price: $50,000</p>
+                </div>
+                <div class="car">
+                    <img src="lexus nx350h.png(1).png" alt="Car 2" width="300" height="200">
+                    <h2>LEXUS NX350</h2>
+                    <p>Price: $45,000</p>
+                </div>
+                <div class="car">
+                    <img src="volvo xc90.png" alt="Car 3" width="300" height="200">
+                    <h2>VOLVO XC90</h2>
+                    <p>Price: $55,000</p>
+                </div>
+            </div>
+            <div class="car-row">
+                <div class="car">
+                    <img src="cardillac lyriq.png" alt="Car 4" width="300" height="200">
+                    <h2>CARDILLAC LYRIQ</h2>
+                    <p>Price: $48,000</p>
+                </div>
+                <div class="car">
+                    <img src="bmw i5 edrive40.png" alt="Car 5" width="300" height="200">
+                    <h2>BMW i5 e drive</h2>
+                    <p>Price: $60,000</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Electric Cars Inc.</p>
+    </footer>
+</body>
+</html>
